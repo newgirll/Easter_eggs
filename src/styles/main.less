@@ -1,69 +1,9 @@
-@font: 'Reenie Beanie', cursive;
+@import './__variables.less';
 
-.main-section {
+@import './_global.less';
+@import './_header.less';
+@import './_menu.less';
 
-}
 
-.container {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-}
 
-.main-section__header {
-    margin-top: 100px;
-}
 
-.main-section__header--title {
-    text-align: center;
-    font-family: @font;
-    font-size: 70px;
-    font-weight: 200;
-}
-
-.eggs-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.egg {
-    width: 140px;
-    height: 200px;
-    border: 3px solid black;
-    border-radius: ~"50% / 60%" 60% 40% 40%;
-    margin-left: 10px;
-}
-
-.egg-stripes-ver {
-    display: grid;
-    grid-template-rows: repeat(5, 20%);
-    overflow: hidden;
-
-    .stripe {
-        border-top: 2px solid black;
-    }
-
-}
-
-.egg-stripes-hor {
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    overflow: hidden;
-
-    .stripe {
-        border-left: 2px solid black;
-    }
-
-}
-
-.egg-circle {
-
-    .circle {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        border: 1px solid black;
-    }
-
-}
